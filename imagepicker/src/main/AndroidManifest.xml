@@ -3,12 +3,12 @@
 
     <application>
 
-        <activity
+        <activity android:exported="true"
             android:name=".ImagePickerActivity"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.Transparent.ImagePicker" />
 
-        <activity
+        <activity android:exported="true"
             android:name="com.yalantis.ucrop.UCropActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
